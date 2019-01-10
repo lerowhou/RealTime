@@ -1,0 +1,32 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+body{
+  background-color: rgba(236, 204, 104,1.0);
+  text-align: center;
+}
+
+.app{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  h1{
+    display: inline-block;
+    font-size: 100px;
+  }
+  .clock{
+    border-radius: 300px;
+    border: 10px solid rgba(241, 242, 246,1.0);
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    .hour{
+      margin-top: 25%;
+      margin-left: 25%;
+      width: 190px;
+      border: 5px solid black;
+      transform: rotate(90deg);
+    }
+  }
+}
